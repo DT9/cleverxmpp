@@ -1,6 +1,6 @@
 cleverxmpp
 ==========
-python xmpp conversation bot that uses cleverapi and xmpppy's api
+a simple python xmpp conversation bot that uses cleverapi and xmpppy's api
 
 Usage: main.py username@server.net password 
 
