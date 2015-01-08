@@ -35,6 +35,8 @@ bot1session = bot1.create_session()
 def messageCB(conn,mess):
     text=mess.getBody()
     user=mess.getFrom()
+    if not text:
+        return
     user.lang='en'      # dup
     botMess = bot1session.think(text)
     if text.find(' ')+1: command,args=text.split(' ',1)
